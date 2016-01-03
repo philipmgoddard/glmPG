@@ -1,0 +1,20 @@
+Package: glmPG
+Type: Package
+Title: Home Brewed S4 Logistic Regression
+Version: 0.1
+Date: 2015-12-21
+Author: Who wrote it
+Maintainer: Philip Goddard <philip.mgoddard@gmail.com>
+Description: S4 performing the basic functionality for fitting and predicting
+    using logistic regression.
+License: GPL
+LazyData: TRUE
+Imports:
+    MASS,
+    methods,
+    stats
+Collate:
+    'class-definition.R'
+    'accessors.R'
+    'functions.R'
+    'generics.R'
